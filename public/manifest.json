@@ -1,0 +1,48 @@
+{
+  "name": "Sap Ferment",
+  "short_name": "Sap Ferment",
+  "icons": [
+    {
+      "src": "/images/icons/maskable_icon_x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/images/icons/maskable_icon_x72.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    },
+    {
+      "src": "/images/icons/maskable_icon_x96.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "/images/icons/maskable_icon_x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/images/icons/maskable_icon_x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/icons/maskable_icon_x384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+    {
+      "src": "/images/icons/maskable_icon_x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "scope": "/",
+  "start_url": "/",
+  "description": "Discover the perfect fermentation environment with real-time temperature and pH monitoring. Choose your preferred sap ferment: sugar, wine, or vinegar. Get ready to ferment with precision!",
+  "display": "standalone",
+  "theme_color": "#1B1A1D",
+  "background_color": "#1B1A1D"
+}
