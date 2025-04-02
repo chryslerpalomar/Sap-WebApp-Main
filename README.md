@@ -9,6 +9,3 @@ The application is currently deployed at [https://pdpalmsap.web.app](https://pdp
 ## About
 
 Discover the perfect fermentation environment with real-time temperature and pH monitoring. Choose your preferred sap ferment: sugar, wine, or vinegar. Get ready to ferment with precision!
-=======
-# Sap-WebApp-Main
->>>>>>> 3b43d39 (Initial commit)
