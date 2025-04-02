@@ -1,13 +1,16 @@
+// this is minidatabox.tsx
+
 import { twMerge } from "tailwind-merge";
 
 import Txt from "./Txt";
 
 interface MiniDataBoxProps {
   title: string;
-  data: number;
-  icon: React.ReactNode;
-  unit: string;
+  data?: number;
+  icon?: React.ReactNode;
+  unit?: string;
   full?: boolean;
+  customContent?: React.ReactNode;
 }
 
 const MiniDataBox: React.FC<MiniDataBoxProps> = ({
@@ -16,7 +19,9 @@ const MiniDataBox: React.FC<MiniDataBoxProps> = ({
   icon,
   unit,
   full = false,
+  customContent,
 }) => {
+  /*
   return (
     <div
       className={twMerge(
@@ -34,6 +39,32 @@ const MiniDataBox: React.FC<MiniDataBoxProps> = ({
             </div>
             <Txt.exponent>{unit}</Txt.exponent>
           </div>
+          {icon}
+        </div>
+      </div>
+    </div>
+  );
+  */
+  return (
+    <div
+      className={twMerge(
+        "rbc rounded-2xl py-4 pl-3 pr-4 bg-gray bg-opacity-75 flex flex-col items-center justify-center text-center",
+        full ? "wf" : "w-40"
+      )}
+    >
+      <div className="css-2 wf">
+        <Txt.section>{title}</Txt.section>
+        <div className="rbs wf flex flex-col items-center justify-center">
+          {customContent ? ( 
+            <div className="flex flex-col items-center justify-center text-center w-full h-full">
+              {customContent}
+            </div>
+          ) : (
+            <div className="rss">
+              <Txt.number>{maxDecimal(data ?? 0)}</Txt.number>
+              <Txt.exponent>{unit}</Txt.exponent>
+            </div>
+          )}
           {icon}
         </div>
       </div>
