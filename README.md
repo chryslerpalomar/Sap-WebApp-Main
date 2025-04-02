@@ -4,7 +4,7 @@ The application is currently deployed at [https://pdpalmsap.web.app](https://pdp
 
 ## Screenshot
 
-![alt text](https://github.com/Manila-Arduino/Sap-Ferment-Website/blob/main/public/images/screenshot.png)
+![alt text](https://github.com/chryslerpalomar/Sap-WebApp-Main/blob/main/public/images/screenshot.png)
 
 ## About
 
