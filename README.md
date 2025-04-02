@@ -1,6 +1,6 @@
 # Title: Sap Ferment
 
-The application is currently deployed at [[https://pdpalmsap.web.app](https://palmsapfermentation.web.app/)]([https://pdpalmsap.web.app](https://palmsapfermentation.web.app/))
+The application is currently deployed at [[https://palmsapfermentation.web.app/](https://palmsapfermentation.web.app/)]
 
 ## Screenshot
 
