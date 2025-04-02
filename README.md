@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Title: Sap Ferment
 
 The application is currently deployed at [https://pdpalmsap.web.app](https://pdpalmsap.web.app)
